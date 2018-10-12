@@ -1,6 +1,6 @@
 def prime?(number)
   if number < 2
-    false
+    return false
 end
   array_of_numbers = (2...number).to_a
   array_of_numbers.any? do |n|
