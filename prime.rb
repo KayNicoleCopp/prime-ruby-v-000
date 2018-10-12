@@ -5,6 +5,8 @@ end
   array_of_numbers.any? do |n|
     if number % n == 0
       return false
+    else
+      true
   end
 end
 end
